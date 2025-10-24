@@ -1,0 +1,170 @@
+@media screen and (max-width: 430px) {
+    body{
+        width: 430px;
+    }
+    header{
+        .header-container{
+            gap: 245px;
+            padding-top: 28px;
+            .mainmenu{
+                display: none;
+            }
+        }
+        .three-bar{
+            display: flex;
+            .menu{
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+                .bar-box{
+                    width: 21.43px;
+                    height: 1.5px;
+                    border-radius: 10px;
+                    background-color: #3E3E3E;
+                }
+            }
+        }
+    }
+    .page-body{
+        width: 360px;
+        gap: 36px !important;
+        .page-body--ct--1{
+            .ct-1--heading{
+                .ct-1--heading-text--2{
+                    font-size: 16px;
+                    line-height: 24px;
+                    width: 360px;
+                    padding: 0px 0px;
+                }
+                .ct-1--heading-text--1{
+                    font-size: 37.9px !important;
+                    line-height: 47px !important;
+                }
+            }
+        }
+    }
+    .ct-1-image--container{
+        flex-direction: column !important;
+        height: auto !important;
+        .image--1,.image--2{
+            width: 360px !important;
+            height: 391px !important;
+        }
+    }
+    .page-body--ct--2{
+        height: auto !important;
+        
+        .ct-2--section{
+            text-align: center;
+            .ct-2--sec-heading{
+                font-weight: 600;
+                font-size: 39.7px;
+                line-height: 53px;
+                margin-top: 72.5px !important;
+                margin-bottom: 40px !important;
+            }
+            .ct-2--sub-container{
+                height: auto;
+                display: grid !important;
+                grid-template-columns: repeat(1, minmax(100px, 356px));
+                margin-bottom: 36px !important;
+                gap: 20px !important;
+                .ct-2-box-text{
+                    width: 255px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    .page-body--ct--3{
+        
+        display: flex !important;
+        flex-direction: column !important;
+        .ct-3-image{
+            width: 360px;
+        }
+        .ct-3-content{
+            width: 360px;
+            text-align: center;
+            gap: 26px !important;
+        }
+    }
+    .page-body--ct--4{
+        .ct-4-image{
+
+        }
+        .ct-4-content{
+            .ct-4-heading{
+                font-size: 39.7px !important;
+                line-height: 47px;
+                width: 340px;
+                margin: 0 auto;
+                margin-top: 51px;
+            }
+            .ct-4-sub-container{
+                display: grid !important;
+                grid-template-columns: repeat(1, minmax(100px, 362px));
+                .ct-4-sub-text{
+                    width: 281px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    .page-body--ct--5{
+        .ct-5-bg{
+            .ct-5-bg-box{
+                height: 356px !important;
+                gap: 13px !important;
+                .ct-5-bg-head-box{
+                    gap: 13px !important;
+                    .ct-5-bg-heading{
+                        .ct-5-bg-head--text{
+                            font-size: 21.33px !important;
+                            font-weight: 600 !important;
+                            width: 236px;
+                            margin: 0 auto;
+                        }
+                        .ct-5-bg-head--content{
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+            .ct-5-front{
+                padding: 71px 0px !important;
+                display: grid !important;
+                grid-template-columns: repeat(1, minmax(100px, 298px)) !important;
+                left: 31px !important;
+                top: 386px !important;
+                
+            }
+        }
+    }
+    footer{
+        margin-top: 520px !important;
+        max-width: 430px;
+        padding: 78px 139px;
+        position: relative;
+        .footer-frame{
+            gap: 36px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 63px;
+            .footer-logo-container{
+                display: flex;
+                flex-direction: column;
+                gap: 36px;
+                .footer-brand{
+                    position: absolute !important;
+                    top: 235px;
+                }
+            }
+            .footer-nav-bar{
+                display: grid !important;
+                grid-template-columns: repeat(2, minmax(10px, 67px));
+                gap: 10px;
+            }
+        }
+    }
+}
