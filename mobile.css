@@ -85,7 +85,7 @@
         }
         .ct-3-content{
             width: 360px;
-            text-align: center;
+            /* text-align: center; */
             gap: 26px !important;
         }
     }

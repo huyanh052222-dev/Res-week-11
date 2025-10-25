@@ -107,7 +107,10 @@
     }
     footer{
         justify-content: space-between;
+        padding-bottom: 0px;
+        /* height: 227px; */
         .footer-frame{
+            margin-bottom: 128px;
             gap: 36px;
             display: flex;
             flex-direction: column;
@@ -115,6 +118,11 @@
                 display: flex;
                 flex-direction: column;
                 gap: 36px;
+                position: relative;
+                .footer-brand{
+                    position: absolute;
+                    top: 122px;
+                }
             }
         }
     }
