@@ -8,13 +8,17 @@ body{
     overflow-x: hidden;
 }
 header{
+    /* position: relative; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
     margin-bottom: 144px;
     .three-bar{
         display: none;
     }
     .header-container{
+        left: 88px;
+        position: relative;
         display: flex;
         padding-top: 32px;
         gap: 845px;
@@ -373,4 +377,7 @@ footer{
             }
         }
     }
+}
+.mobile-heading{
+    display: none;
 }

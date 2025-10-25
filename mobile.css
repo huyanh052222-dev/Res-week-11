@@ -4,6 +4,7 @@
     }
     header{
         .header-container{
+            left: 35px !important;
             gap: 245px;
             padding-top: 28px;
             .mainmenu{
@@ -57,6 +58,11 @@
         .ct-2--section{
             text-align: center;
             .ct-2--sec-heading{
+                display: none !important;
+            }
+            .mobile-heading{
+                display: flex !important;
+                justify-content: center;
                 font-weight: 600;
                 font-size: 39.7px;
                 line-height: 53px;
@@ -87,6 +93,16 @@
             width: 360px;
             /* text-align: center; */
             gap: 26px !important;
+            .ct-3-heading{
+                .ct-3-head-text-1{
+                    text-align: center;
+                    font-size: 39.7px !important;
+                    line-height: 49px !important;
+                }
+                .ct-3-head-text-2{
+                    text-align: center;
+                }
+            }
         }
     }
     .page-body--ct--4{
@@ -185,6 +201,7 @@
                 grid-template-columns: repeat(2, minmax(10px, 67px));
                 gap: 36px 20px;
             }
-        }
+        
     }
+}
 }
