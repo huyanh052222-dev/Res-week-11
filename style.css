@@ -116,6 +116,7 @@ header{
                 
                 width: 589px;
                 .ct-2--sec-heading{
+                    color: #2B2B2B;
                     font-weight: 600;
                     font-size: 50.52px;
                     line-height: 62px;
@@ -164,6 +165,7 @@ header{
                     flex-direction: column;
                     gap: 20px;
                     .ct-3-head-text-1{
+                        color: #2B2B2B;
                         font-weight: 600;
                         font-size: 50.52px;
                         line-height: 62px;
@@ -183,7 +185,7 @@ header{
                     height: 52px;
                 }
                 .ct-3-box-text{
-                    color: #285E67;
+                    color: #2B2B2B ;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 24px;

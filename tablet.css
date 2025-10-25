@@ -94,6 +94,15 @@
     .ct-3-content{
         width: 429.5px;
     }
+    .ct-3-box{
+                
+        .ct-3-box-text{
+            color: #285E67 !important;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
     .page-body--ct--4{
         text-align: center;
         .ct-4-image{
