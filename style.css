@@ -7,7 +7,28 @@ body{
     min-height: 100vh;
     overflow-x: hidden;
 }
+@media screen and (max-width: 1390px) {
+    body{
+        width: 1390px;
+    }
+}
+@media screen and (max-width: 1395px) {
+    body{
+        width: 1395px;
+    }
+}
+@media screen and (max-width: 1385px) {
+    body{
+        width: 1385px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    body{
+        width: 1366px;
+    }
+}
 header{
+    /* width: 1200px; */
     /* position: relative; */
     display: flex;
     /* justify-content: center; */
