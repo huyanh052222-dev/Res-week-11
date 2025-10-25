@@ -235,6 +235,7 @@ header{
         .page-body--ct--5{
             position: relative;
             background: url(img-bg.png);
+            
             display: flex;
             justify-content: center;
             

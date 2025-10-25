@@ -112,10 +112,22 @@
         }
     }
     .page-body--ct--5{
+        background: url(img-bg-mobile.png) !important;
+        background-size: cover !important;
+        width: 361px;
+        height: 354px;
         .ct-5-bg{
             .ct-5-bg-box{
                 height: 356px !important;
                 gap: 13px !important;
+                margin-top: 70.76px !important;
+                
+                .ct-5-bg-leaf{
+                    height: 41.47px !important;
+                    img{
+                        height: 41.47px;
+                    }
+                }
                 .ct-5-bg-head-box{
                     gap: 13px !important;
                     .ct-5-bg-heading{
@@ -129,6 +141,14 @@
                             display: none !important;
                         }
                     }
+                    .ct-5-bg-button-wrap{
+                        .ct-5-bg-button{
+                            width: 198px !important;
+                            height: 46px !important;
+                            /* margin-bottom: 40px !important; */
+
+                        }
+                    }
                 }
             }
             .ct-5-front{
@@ -136,7 +156,7 @@
                 display: grid !important;
                 grid-template-columns: repeat(1, minmax(100px, 298px)) !important;
                 left: 31px !important;
-                top: 386px !important;
+                top: 287px !important;
                 
             }
         }
@@ -157,13 +177,13 @@
                 gap: 36px;
                 .footer-brand{
                     position: absolute !important;
-                    top: 235px;
+                    top: 185px;
                 }
             }
             .footer-nav-bar{
                 display: grid !important;
                 grid-template-columns: repeat(2, minmax(10px, 67px));
-                gap: 10px;
+                gap: 36px 20px;
             }
         }
     }
