@@ -104,6 +104,14 @@
                 }
             }
         }
+        .ct-3-box{
+            .ct-3-box-text{
+                display: none !important;
+            }
+            .ct-3-box-text-mobile{
+                display: flex !important;
+            }
+        }
     }
     .page-body--ct--4{
         .ct-4-image{
@@ -129,6 +137,7 @@
     }
     .page-body--ct--5{
         background: url(img-bg-mobile.png) !important;
+        
         background-size: cover !important;
         width: 361px;
         height: 354px;
@@ -205,3 +214,4 @@
     }
 }
 }
+.
