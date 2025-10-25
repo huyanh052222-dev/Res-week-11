@@ -118,6 +118,7 @@
 
         }
         .ct-4-content{
+            height: 577px !important;
             .ct-4-heading{
                 font-size: 39.7px !important;
                 line-height: 47px;
@@ -128,9 +129,13 @@
             .ct-4-sub-container{
                 display: grid !important;
                 grid-template-columns: repeat(1, minmax(100px, 362px));
-                .ct-4-sub-text{
-                    width: 281px;
-                    margin: 0 auto;
+                gap: 41px !important;
+                .ct-4-sub--box{
+                    height: 151px;
+                    .ct-4-sub-text{
+                        width: 281px;
+                        margin: 0 auto;
+                    }
                 }
             }
         }
