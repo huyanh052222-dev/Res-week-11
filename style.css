@@ -190,6 +190,11 @@ header{
         gap: 53px;
         .ct-3-image{
             height: 578px;
+            width: 539px;
+            img{
+                height: 578px;
+                width: 539px;
+            }
         }
         .ct-3-content{
             display: flex;
