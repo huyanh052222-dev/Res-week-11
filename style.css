@@ -399,10 +399,11 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 78px 139px;
+    /* padding: 78px 139px; */
     .footer-frame{
         display: flex;
-        flex-direction: row;
-        gap: 650px;
+        justify-content: space-between;
+        width: 1300px;
         .footer-logo-container{
             display: flex;
             flex-direction: column;
@@ -447,6 +448,9 @@ footer{
     display: none;
 }
 .ct-3-box-text-mobile{
+    display: none;
+}
+.ct-5-bg-head--text-mobile{
     display: none;
 }
 /* @media screen and (max-width: 1390px) {
