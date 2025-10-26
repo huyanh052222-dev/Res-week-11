@@ -33,16 +33,11 @@
         width: 360px;
         gap: 36px !important;
         .ct-1-image--container{
-        /* flex-direction: column !important; */
         height: auto !important;
         gap: 28px !important;
         flex-direction: column !important;
         .imga{
             width: 100% !important;
-        }
-        .image--1,.image--2{
-            /* width: 360px !important; */
-            /* height: 391px !important; */
         }
         }
         .page-body--ct--2{
@@ -139,19 +134,19 @@
             }
         }
         .page-body--ct--5{
-            height: 988px;
-            display: flex;
-            align-items: center;
-            justify-content: end;
             position: relative;
+            display: flex;
             flex-direction: column; 
+            justify-content: end;
+            align-items: center;
+            height: 988px;
             .ct-5-bg-box{
                 height: 340px;
                 .ct-5-container{
                     display: flex;
+                    flex-direction: column;
                     justify-content: flex-start;
                     align-items: center;
-                    flex-direction: column;
                     width: 100%;
                     height: 340px;
                     gap: 13px;
@@ -197,14 +192,14 @@
                             .ct-5-bg-button{
                                 border: 1px solid #F4F4F4;
                                 color: #F4F4F4;
+                                text-align: center;
+                                align-content: center;
                                 border-radius: 67px;
                                 font-weight: 600;
                                 font-size: 21.33px;
                                 line-height: 24px;
                                 width: 257px;
                                 height: 56px;
-                                text-align: center;
-                                align-content: center;
                             }
                         }
         
@@ -220,15 +215,15 @@
                 flex-direction: row; */
                 .front-wrap{
                     display: flex;
-                    gap: 17px;
                     flex-direction: row;
+                    gap: 17px;
                     .front-wrap-list{
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
+                        flex-wrap: wrap;
                         row-gap: 44.5px;
                         column-gap: 49px;
-                        flex-wrap: wrap;
                         .ct-5-front-box{
                             width: 245px;
                         }
@@ -258,9 +253,9 @@
         padding: 78px 139px;
         position: relative;
         .footer-frame{
-            gap: 36px;
             display: flex;
             flex-direction: column;
+            gap: 36px;
             margin-bottom: 63px;
             .footer-logo-container{
                 display: flex;

@@ -38,8 +38,8 @@
                 height: 350px;
                 .front-wrap{
                     display: flex;
-                    gap: 17px;
                     flex-direction: row;
+                    gap: 17px;
                     .front-wrap-list{
                         display: flex;
                         flex-direction: row;
