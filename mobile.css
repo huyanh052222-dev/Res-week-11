@@ -248,19 +248,26 @@
     }
     
     footer{
-        /* margin-top: 520px !important; */
-        max-width: 430px;
-        padding: 78px 139px;
-        position: relative;
+        padding: 0 !important;
+        margin: 0 auto;
+        display: flex !important;
+        justify-content: center !important;
+        align-content: center;
+        /* max-width: 430px; */
         .footer-frame{
-            display: flex;
+            margin-top: 88px;
+                        display: flex
+;
             flex-direction: column;
             gap: 36px;
-            margin-bottom: 63px;
+            max-width: 166px;
+            width: 100%;
+            justify-content: center;
             .footer-logo-container{
                 display: flex;
                 flex-direction: column;
                 gap: 36px;
+                max-width: 155px;
                 .footer-brand{
                     position: absolute !important;
                     top: 185px;
@@ -270,8 +277,9 @@
                 display: grid !important;
                 grid-template-columns: repeat(2, minmax(10px, 67px));
                 gap: 36px 20px;
+                max-width: 155px;
             }
         
+        }
     }
-}
 }
